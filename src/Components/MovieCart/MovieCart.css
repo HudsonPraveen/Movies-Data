@@ -1,0 +1,32 @@
+.card-container{
+    width: 18rem;
+    background-color: var(--card-bg-color);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.8);
+    border-radius: 4px;
+}
+
+.car-imgcontainer{
+    width: 100%;
+    height: 15rem;
+}
+
+.card-img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.card-details{
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+}
+.title{
+    font-size: 16px;
+}
+.ratings{
+   display: flex;
+   justify-content: space-between;
+}
